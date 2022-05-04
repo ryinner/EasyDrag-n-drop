@@ -21,9 +21,11 @@ q {
 }
 
 .container {
-    width: 400px;
     height: 100%;
-    background: #fff;
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #6eb9ff;
 }
 
 .d-flex, .row {
@@ -35,7 +37,10 @@ q {
 }
 
 .messages__item {
+    margin: 6px 0;
     cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
     padding: 10px 20px 10px 10px;
 }
 
@@ -57,4 +62,9 @@ q {
 .messages__item-footer {
     font-size: 12px;
     color: #6d7c9b;
+}
+
+.drag__selected {
+    opacity: 1;
+    background: #808080;
 }
