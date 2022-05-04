@@ -10,8 +10,6 @@ dragField.addEventListener('dragend', (event) => {
 })
 
 dragField.addEventListener('dragover', (event) => {
-    event.preventDefault()
-
     const activeElement = document.querySelector('.drag__selected')
     const currentElement = event.target
 
